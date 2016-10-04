@@ -146,7 +146,7 @@ body {
 			color: white;
 			transition: all .4s ease-in-out;
 			&:hover {
-				color: $dark;
+				color: #db6062;
 			}
 		}
 	}
@@ -176,7 +176,7 @@ body {
 			transition: all .4s ease-in-out;
 			cursor: pointer;
 			&:hover {
-				background: $dark;
+				background: #db6062;
 			}
 		}
 		::-webkit-input-placeholder { color: $dark; }
@@ -215,7 +215,7 @@ textarea {
 	height: 200px;
 }
 input[type="submit"] {
-	background: white;
+	background: #2d57e5;
 	outline: none;
 	border: none;
 	height: 40px;
@@ -226,7 +226,7 @@ input[type="submit"] {
 	cursor: pointer;
 	color: $dark;
 	&:hover {
-		background: $dark;
+		background: #db6062;
 		color: white;
 	}
 }
